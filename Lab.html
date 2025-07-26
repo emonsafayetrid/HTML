@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form method="post">
+        <h1 style="color: aqua;text-align: center ;">Student Registration Form</h1>
+        <label for="Roll">Roll:</label> 
+        <input type="text" id="Roll" name="Roll" placeholder="Enter your Roll Number">
+        <br><br>
+        <label for="name">Student Name:</label>
+        <input type="text" id="name" name="name" placeholder="Enter your first Name">
+        <labe>-</labe>
+        <input type="text" id="name" name="name" placeholder="Enter your last Name">
+        <br><br>
+        <label for="Fname">Father's name:</label>
+        <input type="text" id="Fname" name="Fname" placeholder="Enter your Father's Name">
+        <br><br>
+        <label for="DOB">Death of birth</label>
+        <input type="date" id="DOB" name="DOB">
+        <br><br>
+        <label for="monile">Mobile No:</label>
+        <input type="tel" id="monile" name="monile" placeholder="123-123-1234" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}" required>
+        <br><br>
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email" placeholder="Enter your Email" required>
+        <br><br>
+        <label for="password">Password:</label>
+        <input type="password" id="password" name="password" placeholder="Enter your Password" required>
+        <br><br>    
+        <label for="gender">Gender:</label>
+        <input type="radio" id="Male" name="gemnder" value="Male">
+        <label for="Male">Male</label>     
+        <input type="radio" id="Female" name="gemnder" value="Female">
+        <label for="Female">Female</label>
+        <br><br>
+        <label for="Departments">Departments:</label>
+        <input type="checkbox" id="CSE" name="Departments" value="CSE">
+        <label for="CSE">CSE</label>    
+        <input type="checkbox" id="IT" name="Departments" value="IT">
+        <label for="IT">IT</label>
+        <input type="checkbox" id="ECE" name="Departments" value="ECE">
+        <label for="ECE">ECE</label>
+        <input type="checkbox" id="ME" name="Departments" value="ME">
+        <label for="ME">ME</label>
+        <br><br>
+        <label for="Course">Course:</label>
+        <select id="Course" name="Course">
+            <option value="Select">-->select your course<--</option>
+            <option value="Math">math</option>
+            <option value="IP">IP</option>
+            <option value="EEE">EEE</option>
+            <option value="ICE">ICE</option>
+        </select>
+        <br><br>
+        <label for="StudentPh">Student Photo:</label>
+        <input type="file" id="StudentPh" name="StudentPh" accept="image/jpg">
+        <br><br>
+        <label for="Address">Address:</label>
+        <textarea id="Address" name="Address" rows="4" cols="50" placeholder="Enter your Address"></textarea>
+        <br><br>
+        <input type="submit" value="Submit">
+        <input type="reset" value="Reset">  
+        <br><br>
+
+    </form>
+</body>
+</html>
